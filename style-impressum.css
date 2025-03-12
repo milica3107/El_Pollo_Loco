@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Ranchers';
+    src: url('fonts/ranchers/Ranchers-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+.imprint-container {
+    background-image: url('grafiken/img_pollo_locco/img/9_intro_outro_screens/start/main-background.png');
+    background-position: center;
+    font-family: 'Ranchers';
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.impressum {
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imprint-content {
+    padding: 100px;
+    max-width: 1440px;
+}
+
+.close-btn {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.close-imprint {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+}
+
+.btn-x {
+    text-decoration: none;
+    color: black;
+}
